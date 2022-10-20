@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Post</title>
+      <link href="script.js">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+   </head>
+   <body>
+      <div id="generalcontainer">
+         <button id="closebutton"><i class="fas fa-times"></i></button>
+         <div id="firstdiv">
+            <img id="firstdivlogo" src="img/Logo.png"><br><br>
+            <span id="nicknamefirst">Hoş geldin, Leal Shaw..</span><br><br>
+            <button id="loging">Giriş Yap</button>
+            <div id="loadingfirst"><div id="loadinginside"></div></div>
+         </div>
+         <div id="maincontainer">
+            <img class="maindivlogo" src="img/Logo.png"><br>
+            <!-- <div id="kazanimlar">
+               <span class="kazanimlartext" style="font-size: 25px; font-weight: 200;">Kazanımlar</span><br>
+               <div class="kazanimlarcizgi"></div><br>
+               <span class="kazanimlarintext"><i>Meslek Seviyesi</i></span><br><br>
+               <div id="meslekseviyesicubuk" class="kazanimlarcizgiler"> <div id="meslekcubukici"></div> </div><br>
+               <span class="kazanimlarintext" style="margin-right: 30%;"><i>Tamamlanan İşler</i></span><br><br>
+               <div id="tamamlanancubuk" class="kazanimlarcizgiler"> <div id="tamamlanancubukici"></div> </div><br>
+               <span class="kazanimlarintext" style="margin-right: 50%;"><i>Saygınlık</i></span><br><br>
+               <div id="sayginlikcubuk" class="kazanimlarcizgiler"> <div id="sayginlikcubukici"></div> </div><br>
+            </div> -->
+            <div class="usernamesection">
+               <div id="photo"><img src="img/pp.png" style="width: 100%; height: 100%;"></div>
+               <div id="username">Leal Shaw</div>
+            </div>
+            <div id="kazanimlar">
+               <div id="meslekseviyesi">
+
+                  <div class="upper-circle">
+                     <div class="circle-text" style="top: -3vh;">Meslek Seviyesi</div>
+                     <div class="circle-labeltext" style="top:3vh;" id="job-rep">0</div>
+
+                  </div>
+                  <div class="middle-circle">
+                     <div class="circle-text">Tamamlanan <br><br><br><br><br><br><br> İşler</div>
+                     <div class="circle-labeltext" style="font-size:100px; bottom: 1vh;">0</div>
+                  </div>
+
+                  <div class="bottom-circle">
+                     <div class="circle-text" style="top: 4vh;">Saygınlık</div>
+                     <div class="circle-labeltext" style="top:0vh;"id="repution">0</div>
+                  </div>
+               </div>
+
+            </div>
+            <div id="aracsec">
+                  <img src="img/arac.png" id="arac1" class="araclar"><br><br>
+                  <!-- <div class="parlama"></div> -->
+                  <div id="aracsecbuttontext">
+                  <button id="aracsecbutton" style="text-shadow: none;">Aracı Seç ve İşe Başla</button><br><br>
+                  
+                  <p id="aracisectext">İki kurucu birleşio kurdukları şirket olan ***********; yaptıkları teslimatlar ile Los Santos'un en çok prestijli sevkiyat firmasıdır. Yakın zamanda *******'a işçi alımı yapılacağını öğrenen şehir halkı, başvuru yapmak için yola koyuldu bile. Eğer ki işi kaptısaysanız yapacaklarınız çok kolay!</p>
+                  <br>
+                  <p id="aracisectext">- Meslek aracınızı(****) alıp *****'ları verilen konuma sotgusuz sualsiz teslim etmek.</p><br>
+                  <p id="aracisectext">- Aracı hasarsız (hasarlı bir şekilde bırakırsanız ücretiniz kesilir) bir şekilde teslim etmeniz dahilinde maaşınız hesabınıza yatacaktır.</p>
+                  </div>
+               </div>
+            <div id="haritalar">
+               <p id="haritayazi">Uygun İşler</p>
+               <div class="boxes-wrapper" style="width: 100%;height: 100%;">
+                  <div class="boxs" id="box1" style="margin-top: 2%;">
+                     <div class="background-paper">
+                        <div class="box-line-text">Mal Dağıtımı</div> 
+                        <!-- <div class="box-line-subtext">Rotayı Seçmek İçin Tıkla!</div>
+                        <i class="fas fa-map-marker-alt" id="haritaicon"></i> -->
+
+                     </div>
+                  </div>
+                  <div class="boxs" id="box2">
+                     <div class="background-paper">
+                        <div class="box-line-text">Mal Dağıtımı</div> 
+                        <!-- <div class="box-line-subtext">Rotayı Seçmek İçin Tıkla!</div>
+                        <i class="fas fa-map-marker-alt" id="haritaicon"></i> -->
+
+                     </div>
+                  </div>
+                  <div class="boxs" id="box3">
+                     <div class="background-paper">
+                        <div class="box-line-text">Mal Dağıtımı</div> 
+                        <!-- <div class="box-line-subtext">Rotayı Seçmek İçin Tıkla!</div>
+                        <i class="fas fa-map-marker-alt" id="haritaicon"></i> -->
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="script.js"></script>
+</html>

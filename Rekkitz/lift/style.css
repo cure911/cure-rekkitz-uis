@@ -1,0 +1,188 @@
+*{
+    user-select: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-app-container{
+    height: 100vh;
+	max-height: 100vh;
+	min-height: 100vh;
+	width: 100vw;
+	max-width: 100vw;
+	min-width: 100vw;
+	margin: 0!important;
+	padding: 0!important;
+	border: 0!important;
+	outline: 0!important;
+	overflow: hidden;
+	position: relative;
+}
+.main-container-back {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	max-width: 100vw;
+	min-width: 100vw;
+	max-height: 100vh;
+	min-height: 100vh;
+	pointer-events: none;
+	border: 0px !important;
+	margin: 0px !important;
+	outline: 0px !important;
+	padding: 0px !important;
+	overflow: hidden !important;
+}
+.main-lift-border {
+	width: 10%;
+	border: 5px solid rgba(189, 110, 7, 0.308);
+    background-color: rgb(230, 176, 0);
+	height: 55%;
+    position: relative;
+    right: 40%;
+    box-shadow: 0 0 15px black inset;
+    bottom: 20%;
+	z-index: 10;
+	overflow: hidden;
+	position: relative;
+	animation: 250ms ease-in 0s 1 normal none running fadeIn;
+	border-radius: 5px;
+	pointer-events: all;
+	backdrop-filter: blur(32px);
+}
+.up-button{
+    width: 60%;
+    border-radius: 50%;
+    position: relative;
+    top: 10%;
+    left: 21%;
+    padding: 3px;
+    height: 20.5%;
+    background-color: black;
+    box-shadow: 0 0 10px black;
+}
+.up-inside{
+    background-color: white;
+    width: 80%;
+    height:80%;
+    position: relative;
+    top: 9%;
+    left: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.up-inside:hover{
+    background-color: rgb(235, 235, 235);
+}
+.up-inside:active{
+    background-color: rgb(219, 219, 219);
+}
+.up-side-icon{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.308);
+    left: 23%;
+    top: 20%;
+}
+.down-button{
+    width: 60%;
+    border-radius: 50%;
+    position: relative;
+    top: 17%;
+    left: 21%;
+    padding: 3px;
+    height: 20.5%;
+    background-color: black;
+    box-shadow: 0 0 10px black;
+}
+.down-inside{
+    background-color: white;
+    cursor: pointer;
+    width: 80%;
+    height:80%;
+    position: relative;
+    top: 9%;
+    left: 10%;
+    border-radius: 50%;
+}
+.down-side-icon{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.418);
+    left: 23%;
+    top: 20%;
+}
+.down-inside:hover{
+    background-color: rgb(235, 235, 235);
+}
+.down-inside:active{
+    background-color: rgb(219, 219, 219);
+}
+.stop-button{
+    width: 60%;
+    border-radius: 50%;
+    position: relative;
+    top: 13%;
+    left: 21%;
+    padding: 3px;
+    height: 20.5%;
+    background-color: black;
+    box-shadow: 0 0 10px black;
+}
+.stop-inside{
+    background-color: white;
+    cursor: pointer;
+    width: 80%;
+    height:80%;
+    position: relative;
+    top: 9%;
+    left: 10%;
+    border-radius: 50%;
+}
+.stop-side-icon{
+    color: black;
+    font-size: 40px;
+    position: relative;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.418);
+    left: 29%;
+    top: 25%;
+}
+.stop-inside:hover{
+    background-color: rgb(235, 235, 235);
+}
+.stop-inside:active{
+    background-color: rgb(219, 219, 219);
+}
+.kablo{
+    width: 30%;
+    transform: rotate(70deg);
+    position: relative;
+    right: 5%;
+    bottom: 10%;
+}
+.warning{
+    color: rgba(0, 0, 0, 0.493);
+    font-size: 30px;
+    position: relative;
+    left: 42%;
+    top: 5%;
+}
+p{
+    color: rgba(255, 255, 255, 0.356);
+    font-weight: bolder;
+    position: relative;
+    top: 21%;
+    left: 19%;
+}
+@keyframes lift {
+    from{margin-bottom: 100%;}
+    to{margin-bottom: 0%;}
+}
